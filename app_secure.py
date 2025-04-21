@@ -19,7 +19,7 @@ credenciais = service_account.Credentials.from_service_account_info(
 )
 
 # ID da planilha no Google Sheets (ajuste se necessário)
-sheet_id = "1aUzealEj-M7RVc4XPoVzTkLM7e7UTRvmFusx-BMwLfY"
+sheet_id = "12_v0nw9A6qPxEDPzQsbAskei6VIm11FIb5X7hgmOZkI"
 gs = gspread.authorize(credenciais)
 sh = gs.open_by_key(sheet_id)
 worksheet = sh.worksheet("Dados")
